@@ -1,0 +1,11 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body, #root {
+    height: var(--tg-viewport-stable-height);
+    transition: height .3s ease-in-out;
+    overflow: visible;
+}

@@ -1,0 +1,52 @@
+{
+    "name": "client",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "start": "npm run dev",
+        "build": "tsc && vite build",
+        "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@fontsource/roboto": "^5.0.8",
+        "@mui/icons-material": "^5.14.11",
+        "@mui/material": "^5.14.11",
+        "@types/events": "^3.0.1",
+        "chess.js": "^1.0.0-beta.6",
+        "events": "^3.3.0",
+        "i18next": "^23.5.1",
+        "react": "^18.2.0",
+        "react-chessboard": "^4.2.1",
+        "react-countdown": "^2.3.5",
+        "react-dom": "^18.2.0",
+        "react-i18next": "^13.2.2",
+        "socket.io-client": "^4.7.2",
+        "tinycolor2": "^1.6.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.7.0",
+        "@types/react": "^18.2.15",
+        "@types/react-dom": "^18.2.7",
+        "@types/tinycolor2": "^1.4.4",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "@vitejs/plugin-basic-ssl": "^1.0.1",
+        "@vitejs/plugin-react": "^4.0.3",
+        "eslint": "^8.45.0",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.4.3",
+        "eslint-plugin-simple-import-sort": "^10.0.0",
+        "prettier": "^3.0.3",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5",
+        "vite-plugin-checker": "^0.6.1",
+        "vite-plugin-handlebars": "^1.6.0",
+        "vite-plugin-svgr": "^3.2.0",
+        "vite-tsconfig-paths": "^4.2.0"
+    }
+}
