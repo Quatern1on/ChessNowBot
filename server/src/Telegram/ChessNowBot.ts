@@ -218,7 +218,7 @@ export class ChessNowBot {
         const todayUniqueUsers = await UserProfile.count({
             where: {
                 updatedAt: {
-                    [Op.gte]: new Date(new Date().getMilliseconds() - 24 * 60 * 60 * 1000),
+                    [Op.gte]: new Date(new Date().getTime() - 24 * 60 * 60 * 1000),
                 },
             },
         });
@@ -228,7 +228,7 @@ export class ChessNowBot {
         const todayGamesPlayed = await PlayedGame.count({
             where: {
                 createdAt: {
-                    [Op.gte]: new Date(new Date().getMilliseconds() - 24 * 60 * 60 * 1000),
+                    [Op.gte]: new Date(new Date().getTime() - 24 * 60 * 60 * 1000),
                 },
             },
         });
