@@ -1,0 +1,64 @@
+{
+	"button": {
+		"wait": "Wait",
+		"join": "Join",
+		"play-again": "Play again",
+		"play-another": "Play with someone else",
+		"play": "Play"
+	},
+	"message": {
+		"creating-room": "Creating a gaming session.\n\n_Please wait a moment..._",
+		"not-started": {
+			"invitation": "User {user} wants to play chess.",
+			"rules": "*Game Rules:* {rules}",
+			"guide": "_Click the button below to join the game._"
+		},
+		"in-game": {
+			"introduction": "The game has started.",
+			"description": "*Playing as White:* {whitePlayer}\n*Playing as Black:* {blackPlayer}",
+			"rules": "*Game Rules:* {rules}",
+			"guide": "_Click the button below to spectate the game._"
+		},
+		"finished": {
+			"resolution": {
+				"victory": {
+					"white": "The game ended with a victory for White.",
+					"black": "The game ended with a victory for Black."
+				},
+				"draw": "The game ended in a draw."
+			},
+			"explanation": {
+				"checkmate": "{winner} checkmated {loser}.",
+				"out-of-time": "{loser} ran out of time on the timer.\n*Winner:* {winner}.",
+				"player-quit": "{loser} exited the game.\n*Winner:* {winner}.",
+				"give-up": "{loser} gave up.\n*Winner:* {winner}.",
+				"stalemate": "Stalemate",
+				"draw": "Technical draw."
+			},
+			"description": "*Played as White:* {whitePlayer}\n*Played as Black:* {blackPlayer}",
+			"guide": "_To create a new game invitation, click one of the buttons below or go to the chat which you want to send the invitation to, type in @{botName}, and add a space._"
+		},
+		"destroyed": "No one joined the game, the invitation is no longer valid.\n\n_To create a new game invitation, click one of the buttons below or go to the chat which you want to send the invitation to, type in @{botName}, and add a space._"
+	},
+	"rules": {
+		"timer": {
+			"absent": "No timer.",
+			"present": "Timer: {start} min + {increment} sec."
+		},
+		"color-1st-person": {
+			"random": "Random color.",
+			"white": "You start as White.",
+			"black": "You start as Black."
+		},
+		"color-3rd-person": {
+			"random": "Random color.",
+			"white": "The host starts as White.",
+			"black": "The host starts as Black."
+		},
+		"custom": "Custom game"
+	},
+	"commands": {
+		"start": "*Want to play chess with any contact from Telegram?*\nIt's very easy to do so, click the button below or go to the chat which you want to send the invitation to, type in @{botName}, and add a space.\nYou can also send the invitation to a group or channel. In that case, the first person to click the 'Join' button will be your opponent.",
+		"stats": "*Your statistics:*\nGames played: *{userGamesPlayed}*\nGames won: *{userGamesWon}*\n\n*Bot statistics:*\nTotal unique users: *{totalUniqueUsers}*\nUnique users today: *{todayUniqueUsers}*\nTotal games played: *{totalGamesPlayed}*\nGames played today: *{todayGamesPlayed}*"
+	}
+}
