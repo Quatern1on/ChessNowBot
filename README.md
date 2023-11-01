@@ -2,13 +2,11 @@
 
 [ChessNowBot](https://t.me/ChessNowBot) - the Telegram Mini App that brings the classic game of chess to your favorite messaging platform! Engage in thrilling chess matches with friends, colleagues, or fellow group members without leaving Telegram. ChessNowBot seamlessly integrates into your chats, offering a user-friendly interface for an immersive chess experience.
 
-ChessNowBot was developed as a submission for the Telegram Mini App Contest. The goal of this competition is to encourage the creation of diverse and useful Mini Apps for Telegram. The ChessNowBot project adheres to the contest guidelines, providing a complete and functional Mini App for playing chess within the Telegram environment.
-
 # First Place Winner in the Telegram Mini App Contest
 
 ChessNowBot has been [awarded the first place](https://contest.com/mini-apps/entry4440) in the Telegram Mini App Contest. 🎉🏆
 
-ChessNowBot was developed as a [submission](https://contest.com/mini-apps/entry4440) for the [Telegram Mini App Contest](https://contest.com/mini-apps), which celebrates innovative and useful Mini Apps for Telegram. This achievement highlights the bot's excellence in providing an immersive chess experience within the Telegram platform.
+ChessNowBot was developed as a [submission](https://contest.com/mini-apps/entry4440) for the [Telegram Mini App Contest](https://contest.com/mini-apps). The goal of this competition is to encourage the creation of diverse and useful Mini Apps for Telegram. The ChessNowBot project adheres to the contest guidelines, providing a complete and functional Mini App for playing chess within the Telegram environment.
 
 ## Demo
 
